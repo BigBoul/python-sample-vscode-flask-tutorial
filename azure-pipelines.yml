@@ -6,8 +6,8 @@
 trigger:
 - main
 
-resources:
-  - repo: self
+pool:
+  vmImage: 'Hosted Ubuntu 1604'
 
 strategy:
   matrix:
