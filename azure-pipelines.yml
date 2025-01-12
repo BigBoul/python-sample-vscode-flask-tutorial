@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'RaspberryPi'
+  host: RaspberryPi
 
 strategy:
   matrix:
